@@ -55,9 +55,9 @@ class App(Client):
             else:
                 self.one.name = get_me.first_name
             try:
-                await self.one.join_chat("kaalware")
-                await self.one.join_chat("adityaserver")
-                await self.one.join_chat("adityadiscus")
+                await self.one.join_chat("Romeo_op")
+                await self.one.join_chat("RomeoBot_op")
+                await self.one.join_chat("GirlboyDp143")
             except:
                 pass
             assistants.append(1)
@@ -88,9 +88,9 @@ class App(Client):
             else:
                 self.two.name = get_me.first_name
             try:
-                await self.two.join_chat("kaalware")
-                await self.two.join_chat("adityaserver")
-                await self.two.join_chat("adityadiscus")
+                await self.two.join_chat("Romeo_op")
+                await self.two.join_chat("RomeoBot_op")
+                await self.two.join_chat("GirlboyDp143")
             except:
                 pass
             assistants.append(2)
@@ -121,9 +121,9 @@ class App(Client):
             else:
                 self.three.name = get_me.first_name
             try:
-                await self.three.join_chat("kaalware")
-                await self.three.join_chat("adityaserver")
-                await self.three.join_chat("adityadiscus")
+                await self.three.join_chat("Romeo_op")
+                await self.three.join_chat("RomeoBot_op")
+                await self.three.join_chat("GirlboyDp143")
             except:
                 pass
             assistants.append(3)
@@ -154,9 +154,9 @@ class App(Client):
             else:
                 self.four.name = get_me.first_name
             try:
-                await self.four.join_chat("kaalware")
-                await self.four.join_chat("adityaserver")
-                await self.four.join_chat("adityadiscus")
+                await self.four.join_chat("Romeo_op")
+                await self.four.join_chat("Romeobot_op")
+                await self.four.join_chat("GirlboyDp143")
             except:
                 pass
             assistants.append(4)
@@ -187,9 +187,9 @@ class App(Client):
             else:
                 self.five.name = get_me.first_name
             try:
-                await self.five.join_chat("kaalware")
-                await self.five.join_chat("adityaserver")
-                await self.five.join_chat("adityadiscus")
+                await self.five.join_chat("Romeo_op")
+                await self.five.join_chat("RomeoBot_op")
+                await self.five.join_chat("GirlboyDp143")
             except:
                 pass
             assistants.append(5)
