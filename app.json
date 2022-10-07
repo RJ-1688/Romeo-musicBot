@@ -24,7 +24,7 @@
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "A Bot's token from @Botfather",
         "value": "",
         "required": true
       },
@@ -44,7 +44,7 @@
         "required": false
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space ?",
         "value": "",
         "required": true
       },
@@ -64,17 +64,17 @@
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights.",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights in Log group.",
         "value": "",
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "Link of your support group.",
+        "description": "Fill the link of your group.",
         "value": "https://t.me/RomeoBot_Op",
         "required": false
       },
       "SUPPORT_CHANNEL": {
-        "description": "Link of your telegram channel.",
+        "description": "Fill the link of your channel.",
         "value": "https://t.me/Romeo_OP",
         "required": false
       }
