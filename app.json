@@ -64,12 +64,12 @@
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!.",
         "value": "",
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
+        "description": "Link of your support group.",
         "value": "https://t.me/RomeoBot_Op",
         "required": false
       },
