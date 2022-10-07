@@ -1,82 +1,100 @@
 {
     "name": "Romeo-musicBot",
-    "description": "Telegram bot for Streaming  Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/e745fdaf1966f228582dc.jpg",
     "keywords": [
-        "pytgcalls",
-        "telegram bot",
-        "pyrogram"
+    "python3",
+    "telegram",
+    "bot",
+    "Romeo",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
     ],
-    "repository": "https://github.com/Romeo-RJ-143/Romeo-musicBot",
+    "stack": "container",
     "env": {
-        "API_ID": {
-            "description": "your API_ID from my.telegram.org",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "your API_HASH from my.telegram.org",
-            "required": true
-        },
-        "BOT_TOKEN": {
-            "description": "your bot token from @BotFather",
-            "required": true
-        },
-        "MONGO_DB_URL": {
-            "description": "your Mongodb URL",
-            "required": true
-        },
-        "OWNER_ID": {
-            "description": "your owner ID",
-            "required": true
-        },
-        "DURATION_LIMIT": {
-            "description": "leave it",
-            "required": true
-            "value": "5400"
-        },
-        "LOG_GROUP_ID=": {
-            "description": "fill Log group ID",
-            "required": true
-        },
-        "MUSIC_BOT_NAME": {
-            "description": "fill with Bot username get from @Botfather without @",
-            "required": true
-        },
-        "STRING_SESSION": {
-            "description": "fill with the pyrogram String Session Get from @Rjssgbot",
-            "required": true
-        },
-        "SUDO_USERS": {
-            "description": "list of user ids to be added to sudo member list, or just fill with your id",
-            "required": true
-        },
-        "SUPPORT_CHANNEL": {
-            "description": "if you have channel, then fill the group username here without @",
-            "required": true,
-        },
-        "SUPPORT_GROUP": {
-            "description": "if you have group, then fill the channel username here without @",
-            "required": true,
-        }
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "DURATION_LIMIT": {
+        "description": "Maximum duration that your bot can play in minutes.",
+        "value": "1200",
+        "required": true
+      },
+      "MONGO_DB_URL": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "",
+        "required": false
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot username without @",
+        "value": "",
+        "required": false
+      },
+      "OWNER_ID": {
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app/bot's name",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_GROUP": {
+        "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
+        "value": "https://t.me/RomeoBot_Op",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Link of your telegram channel.",
+        "value": "https://t.me/Romeo_OP",
+        "required": false
+      }
     },
-    "addons": [],
     "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    },
-    "stack": "container"
-    }
-
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      },
+      "stack": "container"
+  }
